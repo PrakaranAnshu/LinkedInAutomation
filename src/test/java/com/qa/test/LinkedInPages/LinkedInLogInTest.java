@@ -26,19 +26,19 @@ public class LinkedInLogInTest extends LinkedInBase {
 		login.EnterUserDeatils();
 		
 	}
-//	
-//	@Test
-//	public void verifyLinkedInloginPageTitleTest(){
-//		String Title= login.verifyhomepageTitle();
-//		System.out.println(Title);
-//		
-//	}
-//	@Test
-//	public void clickonSignInLinkTest(){
-//		login.clickonSignIn();
-//		login.EnterUserDeatils();
-//			
-//	}
+	
+	@Test
+	public void verifyLinkedInloginPageTitleTest(){
+		String Title= login.verifyhomepageTitle();
+		System.out.println(Title);
+		
+	}
+	@Test
+	public void clickonSignInLinkTest(){
+		login.clickonSignIn();
+		login.EnterUserDeatils();
+			
+	}
 	
 	@AfterMethod
 	public void tearDown(){

@@ -1,0 +1,13 @@
+<!DOCTYPE suite  SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name= "RetryTestFailure" verbose= "1">
+<listeners>
+	<listerner class-name= "com.qa.LinkedIn.Utilities.MyTransformer">
+	</listerner>
+	
+</listeners>>
+<test name="RetryMultipleFailedCases">
+</test>
+<classes>
+	<class name="com.qa.test.LinkedInPages.*">
+	</class>
+</classes>
